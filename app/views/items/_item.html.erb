@@ -1,0 +1,5 @@
+<li>
+	<%= item.name %> <br>
+	<strong>priority: </strong><%= item.priority %><br>
+	<%= link_to "done", item_path(item), method: 'delete', remote: true %>
+</li>
